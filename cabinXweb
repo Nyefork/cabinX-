@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cabinX</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #0044cc, #00aa88);
+            color: white;
+            text-align: center;
+        }
+        header {
+            padding: 40px 20px;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .hero {
+            padding: 50px 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #ffcc00;
+            color: #0044cc;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .features, .faq, .footer {
+            padding: 40px 20px;
+        }
+        .footer {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>cabinX</header>
+    <section class="hero">
+        <h1>Where Memes Meet Community</h1>
+        <p>A memecoin designed for fun, games, and building friendships.</p>
+        <a href="#" class="cta-button">Join Now</a>
+    </section>
+    <section class="features">
+        <h2>🔥 Why cabinX?</h2>
+        <p>✅ Built for Fun – No corporate nonsense. Just memes and good times.</p>
+        <p>✅ Strong Community – A place where friends gather, bet, and build together.</p>
+        <p>✅ Transparent & Fair – No hidden tricks. Just straightforward crypto.</p>
+    </section>
+    <section class="faq">
+        <h2>💬 FAQs</h2>
+        <p><strong>What is cabinX?</strong><br>A memecoin designed to fuel guys' weekends, games, and friendly wagers.</p>
+        <p><strong>How can I join?</strong><br>Stay tuned! We’ll drop the links here soon.</p>
+    </section>
+    <section class="footer">
+        <p>🚀 Get Involved – Follow us on <a href="#">X</a>, <a href="#">Discord</a>, <a href="#">Telegram</a></p>
+        <p>Join the cabinX community and be part of the future!</p>
+    </section>
+</body>
+</html>

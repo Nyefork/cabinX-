@@ -3,16 +3,14 @@ body {
     padding: 0;
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end; /* Pushes content to the bottom */
-    align-items: center;
+    justify-content: center;
+    align-items: flex-end; /* Moves content to the bottom */
     background: url('Background.jpg') no-repeat center center/cover;
-    background-size: cover;
 }
 
 .container {
     text-align: center;
-    padding-bottom: 20px; /* Adjusts spacing from the bottom */
+    margin-bottom: 20px; /* Adds space from the bottom */
 }
 
 h1 {

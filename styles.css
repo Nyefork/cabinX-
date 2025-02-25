@@ -1,20 +1,15 @@
-body {
-    margin: 0;
-    padding: 0;
+.hero {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: flex-end; /* Moves content to the bottom */
+    align-items: flex-end; /* Moves text toward the bottom */
     background: url('Background.jpg') no-repeat center center/cover;
-}
-
-.container {
-    text-align: center;
-    margin-bottom: 1px; /* Adds space from the bottom */
-}
-
-h1 {
-    font-size: 5rem;
-    color: green;
+    color: white;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    padding-bottom: 50px; /* Adjust this value to control how close it is to the bottom */
+}
+
+.hero h1 {
+    font-size: 5rem;
+    margin-bottom: 10px; /* Fine-tunes spacing from the absolute bottom */
 }

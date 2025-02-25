@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background:('background.jpg') no-repeat center center/cover;
+    background:('Background.jpg') no-repeat center center/cover;
 }
 
 .container {

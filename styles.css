@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Pushes content to the bottom */
+    align-items: center;
+    background: url('background.jpg') no-repeat center center/cover;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    padding-bottom: 20px; /* Adjusts spacing from the bottom */
+}
+
+h1 {
+    font-size: 5rem;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}

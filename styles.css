@@ -19,7 +19,8 @@ body, html {
 
 .hero h1 {
     font-size: 4rem;
-    margin-bottom: 2px; /* Adjust bottom spacing */
+    color: green;
+    margin-bottom: 0.5px; /* Adjust bottom spacing */
 }
 
 /* Second Section (Scrollable Content) */

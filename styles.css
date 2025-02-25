@@ -4,11 +4,13 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background: url('Background.jpg') no-repeat center center/cover;
+    align-items: flex-end; /* Moves content to the bottom */
+    background: url('background.jpg') no-repeat center center/cover;
+}
 
 .container {
     text-align: center;
+    margin-bottom: 20px; /* Adds space from the bottom */
 }
 
 h1 {
